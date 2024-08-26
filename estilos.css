@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    align-items: 50px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+.barra li{
+display: inline-block;
+padding: 0px 20px;
+}
+
+.barra a{
+    color: azure;
+    text-decoration: none;
+}
+
+.barra a:hover{
+    color: blue;
+}
+
+.cabeza{
+    background-color: black;
+}
