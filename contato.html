@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="En esta pagina encontraras nuestra informacion">
+    <meta name="keywords" content="telefono,correo,lugar">
+    <meta name="author" content="Rafael Valtierra">
+    <title>Contacto</title>
 </head>
 <body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="recetas.html">Recetas</a></li>
+                <li><a href="historia.html">historia</a></li>
+                <li><a href="platonsio.html">Plato del mes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna duda o sugerencia sobre nuestros servicios, no dudes en ponerte en contacto con nostros llenando el siguiente formulario.</p>
+
+            <h6>Musica para completar el formulario</h6>
+            <audio controls src="imagenes/we-will-fight-203574.mp3" type="audio/mpeg">Hola</audio>
+
+            <form action="">
+                <label for="nombre">nombre completo</label>
+                <br><input type="text" name="nombre" id="nombre" placeholder="Tu nombre completo" required><br>
+                <br>
+                <label for="telefono">Teléfono:</label><br>
+                <input type="tel" id="telefono" name="telefono" placeholder="Tu número de teléfono" pattern="[0-9]{10}" required><br><br>
+                <label for="direccion">Dirección:</label><br>
+                <input type="text" id="direccion" name="direccion" placeholder="Tu dirección" required><br><br>
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required><br><br>
+                <label for="comentarios">Comentarios Adicionales:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe tus comentarios aquí"></textarea><br><br>
+                <input type="submit" value="Enviar">
+
+
+                
+            </form>
+
+
+
+
+
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
     
 </body>
 </html>
